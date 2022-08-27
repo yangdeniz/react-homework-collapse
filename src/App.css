@@ -1,0 +1,16 @@
+.container {
+  width: 960px;
+  margin: 50px auto;
+}
+
+#collapse_area {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+}
+
+#collapse_area.show {
+  height: auto;
+  transition: height 0.3s ease-in;
+}
